@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Rowdies&display=swap');
+
+*{
+    font-family: rowdies, serif;
+}
+.home {
+    background-image: url(./jezael-melgoza-_noSmX8Kgoo-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.home-descript {
+    color:white;
+    font-size: 1.5rem;
+    transform: translate(30%,30%);
+}
+
+.card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.5s;
+}
+
+.card:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.home-descript h1 {
+    font-size: 64px;
+}
+
+.service {
+    background-image: url(./zhaoli-jin-e4I2ktXz5cA-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about-us {
+    color: white;
+    font-size: 38px;
+}
+
+.about-img img {
+    width: 320px;
+    height: auto;
+    border: solid black 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.about-img-last img {
+    width: 320px;
+    height: auto;
+    border: solid black 1px;
+}
+
+
+.about-descript {
+    color: white;
+
+}
+
+footer {
+    padding: 8px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 16px;
+    padding-top: 3px;
+}
